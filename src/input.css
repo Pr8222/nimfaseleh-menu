@@ -28,6 +28,7 @@
 
 @import "tailwindcss";
 
+
 @layer base {
     .font-vazir {
         font-family: "Vazir", sans-serif;
@@ -39,11 +40,47 @@
         @apply flex flex-row items-center text-center justify-center align-middle w-screen;
     }
 
-    .items {
-        @apply flex flex-col items-center text-center justify-center align-middle md:mx-10 mx-1.5 px-[5px] py-0.5 bg-[#7B3306] hover:bg-yellow-600 rounded-md h-fit w-fit font-bold lg:text-xl md:text-base text-xs cursor-pointer;
+    .cat {
+        @apply flex flex-col items-center text-center justify-center align-middle md:mx-10 mx-1.5 px-[5px] py-0.5 bg-[#7B3306] hover:bg-yellow-600 active:bg-yellow-700 rounded-md h-fit w-fit font-bold lg:text-xl md:text-base text-xs cursor-pointer;
     }
 
-    .items-img {
+    .cat-img {
         @apply md:h-[40px] md:w-[40px] h-[20px] w-[20px];
+    }
+
+    .divider {
+        @apply flex flex-row justify-center align-middle items-center lg:text-base md:text-sm text-xs text-white my-3;
+    }
+
+    .divider hr {
+        @apply flex-grow border-[#7B3306];
+    }
+
+    .divider img {
+        @apply md:h-[40px] md:w-[40px] h-[20px] w-[20px];
+    }
+
+    .items {
+        @apply mb-3 grid grid-cols-1 md:grid-cols-2 gap-4;
+    }
+
+    .item {
+        @apply flex flex-row align-middle  h-[9rem] p-2 bg-[#7B3306] rounded;
+    }
+
+    .item img {
+        @apply w-[7rem] h-[7rem] me-4;
+    }
+
+    .desc {
+        @apply flex flex-col justify-between
+    }
+
+    .desc h3 {
+        @apply font-bold;
+    }
+
+    .desc p {
+        @apply font-light;
     }
 }

@@ -8,7 +8,7 @@
     <title>منو کافه کتاب نیم‌فاصله</title>
 </head>
 
-<body class="bg-black text-white font-vazir">
+<body class="bg-black text-white font-vazir selection:bg-yellow-500 selection:text-white">
     <div class="relative w-full">
         <img src="/src/img/Book-Shelf.jpg" alt="Book Shelf" class="w-full h-auto max-h-60">
         <div class="absolute inset-0 bg-[linear-gradient(to_top,rgba(0,0,0,1),rgba(0,0,0,0))] pt-3 ps-2">
@@ -20,27 +20,110 @@
             </svg>
         </div>
     </div>
-    <input type="text" class="bg-amber-900 w-screen justify-center text-center py-0.5 pb-1 mb-6.5" id="search" placeholder="جستجو🔍">
-    <div class="categories">
-        <div class="items">
-            <img src="src/img/herbal-tea.png" alt="دمنوش" class="items-img">
-            <p>دمنوش</p>
+    <input type="text" class="bg-amber-900 w-screen justify-center text-center py-0.5 pb-1 mb-6.5" id="search"
+        placeholder="جستجو🔍">
+    <div class="menu">
+        <!--Menu Categories-->
+        <div class="categories">
+            <div class="cat">
+                <img src="src/img/herbal-tea.png" alt="دمنوش" class="cat-img">
+                <p>دمنوش</p>
+            </div>
+            <div class="cat">
+                <img src="src/img/tea.png" alt="چای" class="cat-img">
+                <p>چای</p>
+            </div>
+            <div class="cat">
+                <img class="cat-img" src="src/img/coffee.png" alt="قهوه">
+                <p>قهوه</p>
+            </div>
+            <div class="cat">
+                <img src="src/img/drinks.png" alt="نوشیدنی" class="cat-img">
+                <p>نوشیدنی</p>
+            </div>
+            <div class="cat">
+                <img class="cat-img" src="src/img/cake.png" alt="کیک">
+                <p>کیک</p>
+            </div>
+        </div>
+        <!--Herbal Tea Items-->
+        <div class="divider">
+            <hr>
+            <span>دمنوش|</span>
+            <img src="src/img/herbal-tea.png" alt="دمنوش">
+            <hr>
         </div>
         <div class="items">
-            <img src="src/img/tea.png" alt="چای" class="items-img">
-            <p>چای</p>
-        </div>
-        <div class="items">
-            <img class="items-img" src="src/img/coffee.png" alt="قهوه">
-            <p>قهوه</p>
-        </div>
-        <div class="items">
-            <img src="src/img/drinks.png" alt="نوشیدنی" class="items-img">
-            <p>نوشیدنی</p>
-        </div>
-        <div class="items">
-            <img class="items-img" src="src/img/cake.png" alt="کیک">
-            <p>کیک</p>
+            <div class="item">
+                <img src="src/img/herbal-tea.png" alt="نیم‌فاصله نایت">
+                <div class="desc">
+                    <h3>نیم‌فاصله نایت</h3>
+                    <p>گل گاو زبان / بابونه / اسطوخودوس / بهارنارنج / عناب / به لیمو</p>
+                    <p><b>120</b> تومان</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="src/img/herbal-tea.png" alt="آذرگان">
+                <div class="desc">
+                    <h3>آذرگان</h3>
+                    <p>چای ترش / زنجلیل / دارچین</p>
+                    <p><b>100</b> تومان</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="src/img/herbal-tea.png" alt="وارنای طلایی">
+                <div class="desc">
+                    <h3>وارنای طلایی</h3>
+                    <p>بابونه / به لیمو / بهارنارنج</p>
+                    <p><b>100</b> تومان</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="src/img/herbal-tea.png" alt="ویولت روود">
+                <div class="desc">
+                    <h3>ویولت روود</h3>
+                    <p>پنیرک / اسطوخودوس / گل گاوزبان</p>
+                    <p><b>110</b> تومان</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="src/img/herbal-tea.png" alt="ماسالا بلک">
+                <div class="desc">
+                    <h3>ماسالا بلک</h3>
+                    <p>ماسالا / کرک / زنجلیل</p>
+                    <p><b>100</b> تومان</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="src/img/herbal-tea.png" alt="شا اسپایس">
+                <div class="desc">
+                    <h3>شا اسپایس</h3>
+                    <p>مراکشی / زنجلیل / به لیمو</p>
+                    <p><b>110</b> تومان</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="src/img/herbal-tea.png" alt="جینجر لمون گرس">
+                <div class="desc">
+                    <h3>جینجر لمون گرس</h3>
+                    <p>نعنا / زنجلیل / لیمو/p>
+                    <p><b>100</b> تومان</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="src/img/herbal-tea.png" alt="دمنوش">
+                <div class="desc">
+                    <h3>دمنوش</h3>
+                    <p><b>90</b> تومان</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="src/img/herbal-tea.png" alt="شیرعسل دارچین">
+                <div class="desc">
+                    <h3>شیرعسل دارچین</h3>
+                    <p><b>120</b> تومان</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
