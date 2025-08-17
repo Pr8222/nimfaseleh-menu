@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("src/fonts/Vazir-Thin-FD-WOL.woff2");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: url("src/fonts/Vazir-Light-FD-WOL.woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: url("src/fonts/Vazir-Medium-FD-WOL.woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: url("src/fonts/Vazir-Bold-FD-WOL");
+    font-weight: 700;
+    font-style: normal
+}
+
+@import "tailwindcss";
+
+@layer base {
+    .font-vazir {
+        font-family: "Vazir", sans-serif;
+    }
+}
+
+@layer components {
+    .categories {
+        @apply flex flex-row items-center text-center justify-center align-middle w-screen;
+    }
+
+    .items {
+        @apply flex flex-col items-center text-center justify-center align-middle md:mx-10 mx-1.5 px-[5px] py-0.5 bg-[#7B3306] hover:bg-yellow-600 rounded-md h-fit w-fit font-bold lg:text-xl md:text-base text-xs cursor-pointer;
+    }
+
+    .items-img {
+        @apply md:h-[40px] md:w-[40px] h-[20px] w-[20px];
+    }
+}
