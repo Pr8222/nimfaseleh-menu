@@ -28,4 +28,17 @@ $(document).ready(function () {
         }
     })
   });
+  $(".cat").on("click", function (e) {
+    e.preventDefault(); 
+
+    const targetId = $(this).attr("href");
+    const target = $(targetId);
+
+    if(target.length) {
+        $("html, body").animate(
+            { scrollTop: target.offset().top + 20}, //adjust -20 for padding
+            700 //scroll duration in ms
+        );
+    }
+  });
 });
