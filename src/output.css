@@ -48,6 +48,8 @@
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-base: 1rem;
     --text-base--line-height: calc(1.5 / 1);
+    --text-lg: 1.125rem;
+    --text-lg--line-height: calc(1.75 / 1.125);
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
     --font-weight-light: 300;
@@ -247,6 +249,12 @@
       max-width: 96rem;
     }
   }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-6 {
+    margin-bottom: calc(var(--spacing) * 6);
+  }
   .mb-6\.5 {
     margin-bottom: calc(var(--spacing) * 6.5);
   }
@@ -295,6 +303,12 @@
   .w-screen {
     width: 100vw;
   }
+  .flex-grow {
+    flex-grow: 1;
+  }
+  .border-collapse {
+    border-collapse: collapse;
+  }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
@@ -331,8 +345,14 @@
   .bg-\[linear-gradient\(to_top\,rgba\(0\,0\,0\,1\)\,rgba\(0\,0\,0\,0\)\)\] {
     background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
   }
+  .p-0 {
+    padding: calc(var(--spacing) * 0);
+  }
   .p-0\.5 {
     padding: calc(var(--spacing) * 0.5);
+  }
+  .py-0 {
+    padding-block: calc(var(--spacing) * 0);
   }
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
@@ -349,6 +369,18 @@
   .text-center {
     text-align: center;
   }
+  .text-base {
+    font-size: var(--text-base);
+    line-height: var(--tw-leading, var(--text-base--line-height));
+  }
+  .text-lg {
+    font-size: var(--text-lg);
+    line-height: var(--tw-leading, var(--text-lg--line-height));
+  }
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
   .text-white {
     color: var(--color-white);
   }
@@ -358,9 +390,16 @@
   .uppercase {
     text-transform: uppercase;
   }
+  .underline {
+    text-decoration-line: underline;
+  }
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .blur {
     --tw-blur: blur(8px);
@@ -392,6 +431,12 @@
       color: var(--color-white);
     }
   }
+  .md\:text-lg {
+    @media (width >= 48rem) {
+      font-size: var(--text-lg);
+      line-height: var(--tw-leading, var(--text-lg--line-height));
+    }
+  }
 }
 @layer base {
   .font-vazir {
@@ -399,16 +444,20 @@
   }
 }
 @layer components {
-  .categories {
+  .header {
     position: sticky;
     top: calc(var(--spacing) * 0);
+    background-color: var(--color-black);
+    padding-top: calc(var(--spacing) * 3);
+  }
+  .categories {
     display: flex;
     width: 100vw;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: var(--color-black);
-    padding-block: calc(var(--spacing) * 3);
+    padding-bottom: calc(var(--spacing) * 3);
     text-align: center;
     vertical-align: middle;
   }
@@ -622,6 +671,11 @@
   inherits: false;
   initial-value: 0 0 #0000;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @property --tw-blur {
   syntax: "*";
   inherits: false;
@@ -702,6 +756,7 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;
       --tw-contrast: initial;

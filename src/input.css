@@ -46,8 +46,11 @@
 }
 
 @layer components {
+    .header {
+        @apply bg-black sticky top-0 pt-3;
+    }
     .categories {
-        @apply flex flex-row items-center text-center justify-center align-middle w-screen bg-black py-3 sticky top-0;
+        @apply flex flex-row items-center text-center justify-center align-middle w-screen bg-black pb-3;
     }
 
     .cat {
