@@ -78,11 +78,11 @@
     }
 
     .item {
-        @apply flex flex-row align-middle h-[9rem] p-2 bg-[#142447] rounded;
+        @apply flex flex-row items-center h-[9rem] p-2 bg-[#142447] rounded;
     }
 
     .item img {
-        @apply w-[7rem] h-[7rem] me-4;
+        @apply w-[7rem] h-[7rem] me-4 bg-white rounded-md;
     }
 
     .desc {

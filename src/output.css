@@ -538,15 +538,17 @@
     display: flex;
     height: 9rem;
     flex-direction: row;
+    align-items: center;
     border-radius: 0.25rem;
     background-color: #142447;
     padding: calc(var(--spacing) * 2);
-    vertical-align: middle;
   }
   .item img {
     margin-inline-end: calc(var(--spacing) * 4);
     height: 7rem;
     width: 7rem;
+    border-radius: var(--radius-md);
+    background-color: var(--color-white);
   }
   .desc {
     display: flex;
