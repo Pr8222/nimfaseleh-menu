@@ -47,14 +47,14 @@
 
 @layer components {
     .header {
-        @apply bg-black sticky top-0 pt-3;
+        @apply bg-[#18192E] sticky top-0 pt-3;
     }
     .categories {
-        @apply flex flex-row items-center text-center justify-center align-middle w-screen bg-black pb-3;
+        @apply flex flex-row items-center text-center justify-center align-middle w-screen bg-[#18192E] text-white pb-3;
     }
 
     .cat {
-        @apply flex flex-col items-center text-center justify-center align-middle md:mx-10 mx-1.5 px-[5px] py-0.5 bg-[#7B3306] hover:bg-yellow-600 active:bg-yellow-700 rounded-md h-fit w-fit font-bold lg:text-xl md:text-base text-xs cursor-pointer;
+        @apply flex flex-col items-center text-center justify-center align-middle md:mx-10 mx-1.5 px-[5px] py-0.5 bg-[#142447] hover:bg-[#1C4068] active:bg-white active:text-black rounded-md h-fit w-fit font-bold lg:text-xl md:text-base text-xs cursor-pointer;
     }
 
     .cat-img {
@@ -62,11 +62,11 @@
     }
 
     .divider {
-        @apply flex flex-row justify-center align-middle items-center lg:text-base md:text-sm text-xs text-white my-3;
+        @apply flex flex-row justify-center align-middle items-center lg:text-base md:text-sm text-xs my-3;
     }
 
     .divider hr {
-        @apply flex-grow border-[#7B3306];
+        @apply flex-grow border-white;
     }
 
     .divider img {
@@ -78,7 +78,7 @@
     }
 
     .item {
-        @apply flex flex-row align-middle h-[9rem] p-2 bg-[#7B3306] rounded;
+        @apply flex flex-row align-middle h-[9rem] p-2 bg-[#142447] rounded;
     }
 
     .item img {
