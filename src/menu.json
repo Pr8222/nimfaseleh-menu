@@ -6,37 +6,44 @@
             "icon": "src/img/herbal-tea.png",
             "items": [
                 {
+                    "img": "src/img/herbal-tea.png",
                     "name": "نیم فاصله نایت",
                     "desc": "گل گاو زبان / بابونه / اسطوخودوس / بهارنارنج / عناب / به لیمو",
                     "price": 120
                 },
                 {
+                    "img": "src/img/herbal-tea.png",
                     "name": "آذرگان",
                     "desc": "چای ترش / زنجبیل / دارچین",
                     "price": 100
                 },
                 {
+                    "img": "src/img/herbal-tea.png",
                     "name": "وارنای طلایی",
                     "desc": "بابونه / به لیمو / بهارنارنج",
                     "price": 100
                 },
                 {
+                    "img": "src/img/herbal-tea.png",
                     "name": "ویولت موود",
                     "desc": "پنیرک / اسطوخودوس / گل گاوزبان",
                     "price": 110
                 },
                 {
+                    "img": "src/img/herbal-tea.png",
                     "name": "منتا اسپایس",
                     "desc": "مراکشی / زنجبیل / به لیمو",
                     "price": 130
                 },
                 {
+                    "img": "src/img/herbal-tea.png",
                     "name": "جینجر لمون گرس",
                     "desc": "نعنا / زنجبیل / لیمو",
                     "price": 130
                 },
                 {
-                    "name": "دمنوش",
+                    "img": "src/img/herbal-tea.png",
+                    "name": "دمنوش تکی",
                     "price": 90
                 }
             ]
@@ -47,26 +54,32 @@
             "icon": "src/img/tea.png",
             "items": [
                 {
+                    "img": "src/img/tea.png",
                     "name": "چای کلاسیک",
                     "price": 60
                 },
                 {
+                    "img": "src/img/tea.png",
                     "name": "چای ماسالا",
                     "price": 90
                 },
                 {
+                    "img": "src/img/tea.png",
                     "name": "چای کرک",
                     "price": 100
                 },
                 {
+                    "img": "src/img/tea.png",
                     "name": "چای ترش",
                     "price": 90
                 },
                 {
+                    "img": "src/img/tea.png",
                     "name": "چای مراکشی",
                     "price": 120
                 },
                 {
+                    "img": "src/img/tea.png",
                     "name": "شیر عسل دارچین",
                     "price": 120
                 }
@@ -78,42 +91,52 @@
             "icon": "src/img/coffee.png",
             "items": [
                 {
+                    "img": "src/img/coffee.png",
                     "name": "اسپرسو سینگل",
                     "price": 60
                 },
                 {
+                    "img": "src/img/coffee.png",
                     "name": "اسپرسو دبل",
                     "price": 70
                 },
                 {
+                    "img": "src/img/coffee.png",
                     "name": "آمریکانو",
                     "price": 70
                 },
                 {
+                    "img": "src/img/coffee.png",
                     "name": "آیس آمریکانو",
                     "price": 75
                 },
                 {
+                    "img": "src/img/coffee.png",
                     "name": "لاته",
                     "price": 110
                 },
                 {
+                    "img": "src/img/coffee.png",
                     "name": "آیس لاته",
                     "price": 115
                 },
                 {
+                    "img": "src/img/coffee.png",
                     "name": "کارامل ماکیاتو",
                     "price": 120
                 },
                 {
+                    "img": "src/img/coffee.png",
                     "name": "آیس کارامل ماکیاتو",
                     "price": 125
                 },
                 {
+                    "img": "src/img/coffee.png",
                     "name": "آیس لاته نوتلا",
                     "price": 130
                 },
                 {
+                    "img": "src/img/coffee.png",
                     "name": "آفوگاتو",
                     "price": 120
                 }
@@ -125,40 +148,49 @@
             "icon": "src/img/drinks.png",
             "items": [
                 {
+                    "img": "src/img/drinks.png",
                     "name": "زعفران کبود",
                     "desc": "تخم شربتی / سیروپ زعفران / گل پنیرک",
                     "price": 160
                 },
                 {
+                    "img": "src/img/drinks.png",
                     "name": "یخ نیلوفری",
                     "desc": "تخم شربتی / سیروپ کاسنی / گل پنیرک",
                     "price": 150
                 },
                 {
+                    "img": "src/img/drinks.png",
                     "name": "لیموناد",
                     "price": 145
                 },
                 {
+                    "img": "src/img/drinks.png",
                     "name": "موهیتو",
                     "price": 150
                 },
                 {
+                    "img": "src/img/drinks.png",
                     "name": "رد موهیتو",
                     "price": 165
                 },
                 {
+                    "img": "src/img/drinks.png",
                     "name": "شیک نوتلا",
                     "price": 210
                 },
                 {
+                    "img": "src/img/drinks.png",
                     "name": "شیک لوتوس",
                     "price": 200
                 },
                 {
+                    "img": "src/img/drinks.png",
                     "name": "شیک اسپرسو",
                     "price": 185
                 },
                 {
+                    "img": "src/img/drinks.png",
                     "name": "شیک توت فرنگی",
                     "price": 195
                 }
@@ -170,15 +202,19 @@
             "icon": "src/img/cake.png",
             "items": [
                 {
+                    "img": "src/img/cake.png",
                     "name": "وافل"
                 },
                 {
+                    "img": "src/img/cake.png",
                     "name": "کیک روز"
                 },
                 {
+                    "img": "src/img/cake.png",
                     "name": "تیرامیسو"
                 },
                 {
+                    "img": "src/img/cake.png",
                     "name": "چیزکیک"
                 }
             ]
