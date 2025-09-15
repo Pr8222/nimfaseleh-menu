@@ -86,14 +86,10 @@ $(document).ready(function () {
       navigator
         .share({
           title: document.title,
-          text: "این صفحه رو ببین!",
           url: window.location.href,
         })
-        .catch((err) => console.log("کاربر لغو کرد", err));
     } else {
-      navigator.clipboard.writeText(window.location.href).then(() => {
-        alert("لینک کپی شد ✅");
-      });
+      navigator.clipboard.writeText(window.location.href);
     }
   });
 });
