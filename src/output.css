@@ -280,8 +280,8 @@
   .h-\[30px\] {
     height: 30px;
   }
-  .h-\[140px\] {
-    height: 140px;
+  .h-\[90px\] {
+    height: 90px;
   }
   .h-auto {
     height: auto;
@@ -292,8 +292,8 @@
   .w-\[30px\] {
     width: 30px;
   }
-  .w-\[140px\] {
-    width: 140px;
+  .w-\[90px\] {
+    width: 90px;
   }
   .w-full {
     width: 100%;
@@ -303,6 +303,9 @@
   }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
+  .cursor-pointer {
+    cursor: pointer;
   }
   .resize {
     resize: both;
@@ -410,6 +413,26 @@
       @media (hover: hover) {
         background-color: #1C4068;
       }
+    }
+  }
+  .md\:h-\[40px\] {
+    @media (width >= 48rem) {
+      height: 40px;
+    }
+  }
+  .md\:h-\[180px\] {
+    @media (width >= 48rem) {
+      height: 180px;
+    }
+  }
+  .md\:w-\[40px\] {
+    @media (width >= 48rem) {
+      width: 40px;
+    }
+  }
+  .md\:w-\[180px\] {
+    @media (width >= 48rem) {
+      width: 180px;
     }
   }
   .md\:text-lg {
