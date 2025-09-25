@@ -82,45 +82,14 @@ $(document).ready(function () {
   });
   //Share button functionality
   $("#share-button").on("click", function () {
-    const url = window.location.href;
-    const title = document.title;
-
     if (navigator.share) {
       navigator
         .share({
-          title: title,
-          url: url,
+          title: document.title,
+          url: window.location.href,
         })
-        .catch((err) => {
-          console.log("خطا در اشتراک‌گذاری:", err);
-        });
-    } else if (navigator.clipboard) {
-      navigator.clipboard
-        .writeText(url)
-        .then(() => {
-          showMessage("لینک کپی شد ✅");
-        })
-        .catch(() => {
-          showMessage("کپی لینک ناموفق بود ❌");
-        });
     } else {
-     
-      const tempInput = document.createElement("input");
-      tempInput.value = url;
-      document.body.appendChild(tempInput);
-      tempInput.select();
-      document.execCommand("copy");
-      document.body.removeChild(tempInput);
-      showMessage("لینک کپی شد ✅");
+      navigator.clipboard.writeText(window.location.href);
     }
   });
-
-  function showMessage(text) {
-    const msg = $("#share-message");
-    msg.text(text).fadeIn();
-
-    setTimeout(() => {
-      msg.fadeOut();
-    }, 2000);
-  }
 });
