@@ -470,7 +470,7 @@
     margin-inline: calc(var(--spacing) * 1.5);
     display: flex;
     height: fit-content;
-    width: 80px;
+    width: 40px;
     cursor: pointer;
     flex-direction: column;
     align-items: center;
@@ -495,6 +495,9 @@
     }
     @media (width >= 48rem) {
       margin-inline: calc(var(--spacing) * 10);
+    }
+    @media (width >= 48rem) {
+      width: 80px;
     }
     @media (width >= 48rem) {
       font-size: var(--text-base);

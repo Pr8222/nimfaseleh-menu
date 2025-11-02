@@ -54,7 +54,7 @@
     }
 
     .cat {
-        @apply flex flex-col items-center text-center justify-center align-middle md:mx-10 mx-1.5 px-[5px] py-0.5 bg-[#142447] hover:bg-[#1C4068] active:bg-[#18192E] rounded-md h-fit w-[80px] font-bold lg:text-xl md:text-base text-xs cursor-pointer;
+        @apply flex flex-col items-center text-center justify-center align-middle md:mx-10 mx-1.5 px-[5px] py-0.5 bg-[#142447] hover:bg-[#1C4068] active:bg-[#18192E] rounded-md h-fit w-[40px] md:w-[80px] font-bold lg:text-xl md:text-base text-xs cursor-pointer;
     }
 
     .cat-img {
