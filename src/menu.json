@@ -239,7 +239,8 @@
                 },
                 {
                     "img": "src/img/cake.png",
-                    "name": "قطاب"
+                    "name": "قطاب",
+                    "price": 60
                 }
             ]
         }
