@@ -139,6 +139,21 @@
                     "img": "src/img/coffee.png",
                     "name": "آفوگاتو",
                     "price": 120
+                },
+                {
+                    "img": "src/img/coffee.png",
+                    "name": "هات چاکلت",
+                    "price": 140
+                },
+                {
+                    "img": "src/img/coffee.png",
+                    "name": "وایت چاکلت",
+                    "price": 150
+                },
+                {
+                    "img": "src/img/coffee.png",
+                    "name": "پینک چاکلت",
+                    "price": 150
                 }
             ]
         },
@@ -173,6 +188,11 @@
                     "img": "src/img/drinks.png",
                     "name": "رد موهیتو",
                     "price": 165
+                },
+                {
+                    "img": "src/img/drinks.png",
+                    "name": "نوشیدنی نعنا",
+                    "price": null
                 },
                 {
                     "img": "src/img/drinks.png",
@@ -216,6 +236,10 @@
                 {
                     "img": "src/img/cake.png",
                     "name": "چیزکیک"
+                },
+                {
+                    "img": "src/img/cake.png",
+                    "name": "قطاب"
                 }
             ]
         }
